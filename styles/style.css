@@ -273,6 +273,7 @@ header {
     padding-top: 130px;
 }
 
+
 footer{
     background-color: #000;
     padding: 128px ;
@@ -307,4 +308,31 @@ footer{
 #buy-section{
     max-width: 1922px;
     margin: 128px auto;
+}
+.buy-info{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px 5px;
+    background-color: aliceblue;
+    margin-bottom: 100px;
+}
+.buy-heading{
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 14px;
+}
+.buy-description{
+    font-size: 16px;
+
+}
+
+.buy-now{
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-color:#E55473;
+    color: #fff;
 }
